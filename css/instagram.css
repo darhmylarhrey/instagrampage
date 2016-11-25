@@ -1,0 +1,470 @@
+body{
+	background: #f2f2f2;
+}
+
+nav{
+	background: white;
+	height:60px; 
+}
+.home{
+   height:35px;
+   width:35px;
+   margin-left:20px;
+   margin-top:10px;
+
+}
+.instagram{
+	width:150px;
+    height:30px;
+    margin-left: 500px;
+    margin-top:11px; 
+}
+
+.logo{
+	height: 40px;
+	width:40px;
+	float: right;
+	border-radius:30px;
+	margin-right:20px;
+	margin-top:9px;
+
+}
+.dog{
+	width: 200px;
+	height: 200px;
+	border-radius:100px;
+	margin-top:70px;
+	margin-left:45px; 
+
+}
+.menu{
+	float:right;
+	height:40px;
+	width:30px;
+	margin-top:75px;
+	margin-right:40px;
+	}
+
+	.grid{
+
+	height:27px;
+	width:30px;
+	margin-top:80px;
+	margin-right:50px;
+	float: right; 
+ }
+.posts{
+    float: right;
+	margin-right:780px;
+    margin-top:85px;
+    text-decoration: none;
+    color:#cccccc;
+
+    
+}
+
+.sect1{
+	background: white;
+	margin-top:-130px;
+	margin-right:10px;
+	margin-left:10px;
+	padding-top:110px;
+	padding-right:30px
+	padding-left:30px;
+	padding-bottom:20px;  
+}
+h2{
+	text-align: center;
+	font-family: arial;
+}
+h3{
+text-align: center;
+font-family: arial;
+}
+h4{
+color:#cccccc;	
+}	
+ p{
+padding:10px;
+color:#cccccc;
+text-align: center;	
+}
+button{
+	background: green;
+	color:white;
+	width:150px;
+	height:35px;
+    margin-left:65px;
+    border-radius:20px;
+    border-width:0;
+
+}
+aside{
+	float: left;
+	height: 1200px;
+	width: 300px;
+}
+
+.sect2{
+	float: left;
+	background: white;
+	margin-top:2px;
+	width:140px;
+	margin-left:10px;
+}
+
+.sect3{
+	float: left;
+	background: white;
+	margin-top: 2px;
+	width:138px;
+	margin-left:2px;
+}
+.ichaity{
+	background: white;
+	width:280px;
+	height:60px;
+	margin-top:125px;
+	margin-left:10px;
+	padding-top: 2px;
+
+}
+.info{
+	padding-top: 40px;
+	padding-left: 10px;
+}
+.info img {
+	width:55px;
+	height:55px;
+	border-radius: 50px
+}
+.info p{
+	color:#cccccc;
+	margin-top:-30px;
+	text-align:left; 
+}
+.images{
+   width:25%;
+   clear: both;
+   float: left;
+
+}
+
+.pictures img{
+	width: 165px;
+	height: 165px;
+	margin:10px;
+	border: solid 5px white;
+	display: inline-block; 
+	 
+
+}
+.pictures{
+	float: right;
+	margin-top:20px;
+	width: 1010px;
+
+}
+img{
+	transition: all .2s ease-in-out;
+}
+img:hover{transform: scale(1.5);
+
+}
+
+
+
+/*PHONE VERSION*/
+
+@media screen and (max-width: 500px) {
+.instagram{
+	width:80px;
+    height:20px;
+    margin-left:100px;
+    margin-top:11px; 
+}
+.posts{
+    float:left;
+    margin-top:20px;
+    text-decoration: none;
+    color:#ccc;
+    margin-right:10px;
+    }
+.menu{
+	float:right;
+	height:25px;
+	width:25px;
+	margin-top:18px;
+	margin-right:10px;
+	}
+
+	.grid{
+
+	height:20px;
+	width:25px;
+	margin-top:20px;
+	margin-right:20px;
+	float: right; 
+ }
+
+
+aside{
+	display: none;
+}
+.pictures{
+	width:100%;
+}
+.pictures img{
+	width: 100%;
+	height: 300px;
+	margin:10px;
+	border: solid 5px white;
+	display:block; 
+}
+img{
+	transition: all .2s ease-in-out;
+}
+img:hover{transform: scale(1.0);
+
+}
+
+
+
+
+}
+
+/*TABLET VERSION*/
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+aside{
+	margin-left: 20px;
+}
+.instagram{
+	width:130px;
+    height:25px;
+    margin-left:150px;
+    margin-top:11px; 
+}
+.posts{
+    float:left;
+    margin-top:20px;
+    text-decoration: none;
+    color:#ccc;
+    margin-right:10px;
+    }
+
+.menu{
+	float:right;
+	height:25px;
+	width:25px;
+	margin-top:18px;
+	margin-right:10px;
+	}
+
+	.grid{
+
+	height:20px;
+	width:25px;
+	margin-top:20px;
+	margin-right:20px;
+	float: right; 
+ }
+
+.pictures{
+	width:500px;
+}
+.pictures img{
+	width:40%;
+	height: 250px;
+	margin:10px;
+	border: solid 5px white;
+	display:inline-block;
+}
+img{
+	transition: all .2s ease-in-out;
+}
+img:hover{transform: scale(1.1);
+
+}
+	
+}
+
+
+/*PC AND DESKTOP VERSION*/
+
+@media screen and (min-width: 701px) {
+body{
+	background: #f2f2f2;
+}
+
+nav{
+	background: white;
+	height:60px; 
+}
+.home{
+   height:35px;
+   width:35px;
+   margin-left:20px;
+   margin-top:10px;
+
+}
+.instagram{
+	width:150px;
+    height:30px;
+    margin-left: 500px;
+    margin-top:11px; 
+}
+
+.logo{
+	height: 40px;
+	width:40px;
+	float: right;
+	border-radius:30px;
+	margin-right:20px;
+	margin-top:9px;
+
+}
+.dog{
+	width: 200px;
+	height: 200px;
+	border-radius:100px;
+	margin-top:70px;
+	margin-left:45px; 
+
+}
+.menu{
+	float:right;
+	height:40px;
+	width:30px;
+	margin-top:75px;
+	margin-right:40px;
+	}
+
+	.grid{
+
+	height:27px;
+	width:30px;
+	margin-top:80px;
+	margin-right:50px;
+	float: right; 
+ }
+.posts{
+    float: right;
+	margin-right:780px;
+    margin-top:85px;
+    text-decoration: none;
+    color:#cccccc;
+
+    
+}
+
+.sect1{
+	background: white;
+	margin-top:-130px;
+	margin-right:10px;
+	margin-left:10px;
+	padding-top:110px;
+	padding-right:30px
+	padding-left:30px;
+	padding-bottom:20px;  
+}
+h2{
+	text-align: center;
+	font-family: arial;
+}
+h3{
+text-align: center;
+font-family: arial;
+}
+h4{
+color:#cccccc;	
+}	
+ p{
+padding:10px;
+color:#cccccc;
+text-align: center;	
+}
+button{
+	background: green;
+	color:white;
+	width:150px;
+	height:35px;
+    margin-left:65px;
+    border-radius:20px;
+    border-width:0;
+
+}
+aside{
+	float: left;
+	height: 1200px;
+	width: 300px;
+}
+
+.sect2{
+	float: left;
+	background: white;
+	margin-top:2px;
+	width:140px;
+	margin-left:10px;
+}
+
+.sect3{
+	float: left;
+	background: white;
+	margin-top: 2px;
+	width:138px;
+	margin-left:2px;
+}
+.ichaity{
+	background: white;
+	width:280px;
+	height:60px;
+	margin-top:125px;
+	margin-left:10px;
+	padding-top: 2px;
+
+}
+.info{
+	padding-top: 40px;
+	padding-left: 10px;
+}
+.info img {
+	width:55px;
+	height:55px;
+	border-radius: 50px
+}
+.info p{
+	color:#cccccc;
+	margin-top:-30px;
+	text-align:left; 
+}
+.images{
+   width:25%;
+   clear: both;
+   float: left;
+
+}
+
+.pictures img{
+	width: 165px;
+	height: 165px;
+	margin:10px;
+	border: solid 5px white;
+	display: inline-block; 
+	 
+
+}
+.pictures{
+	float: right;
+	margin-top:20px;
+	width: 1010px;
+
+}
+img{
+	transition: all .2s ease-in-out;
+}
+img:hover{transform: scale(1.5);
+
+}
+
+	
